@@ -1,5 +1,6 @@
 from math import hypot
 
+
 class Vector:
     def __init__(self, x=0.0, y=0.0):
         self._x = float(x)
@@ -60,7 +61,7 @@ class Vector:
         return not self == other
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     a = Vector(2, 8)
     b = Vector(3, 4)
 
