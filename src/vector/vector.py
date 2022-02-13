@@ -59,6 +59,7 @@ class Vector:
     def __ne__(self, other):
         return not self == other
 
+
 if __name__ == '__main__':
     a = Vector(2, 8)
     b = Vector(3, 4)
@@ -82,7 +83,3 @@ if __name__ == '__main__':
 
     print(a, id(a))
     print(b, id(b))
-
-
-# Vector vectorSum(Vector a, Vector b)
-# Vector vectorDiff(Vector a, Vector b)
