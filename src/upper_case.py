@@ -8,7 +8,7 @@ if __name__ == '__main__':
         else:
             new_text += char
 
-    print(new_text)
+    print('Manual writed function says: ', new_text)
 
     uppercase_text = text.upper()
-    print(uppercase_text)
+    print('Build in function says: ', uppercase_text)
