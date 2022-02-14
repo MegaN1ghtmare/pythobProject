@@ -6,7 +6,7 @@ def gcd_function(x, y):
     print('x =', x, 'y =', y)
     return gcd_function(y, x % y)
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     data = input()
     data.strip()
 

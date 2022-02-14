@@ -1,16 +1,19 @@
-def array_scan():
+def array_scan():  # pragma: no cover
     return [int(elem) for elem in input().strip().split()]
+
 
 def array_increment(array, increment):
     for i in range(len(array)):
         array[i] += increment
+
 
 def array_print(array):
     out = [str(elem) for elem in array]
     out = ' '.join(out)
     print(out)
 
-if __name__ == '__main__':
+
+if __name__ == '__main__':  # pragma: no cover
     array = array_scan()
     increment = int(input())
     array_increment(array, increment)
